@@ -1,5 +1,7 @@
 'use server';
 
+export const maxDuration = 60;
+
 import { generateCopy } from '@/ai/flows/generate-copy';
 import type { GenerateCopyInput, GenerateCopyOutput } from '@/ai/flows/generate-copy';
 
